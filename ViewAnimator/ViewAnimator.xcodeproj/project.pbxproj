@@ -15,6 +15,7 @@
 		92D612BB24CDEC09000B92A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D612B924CDEC09000B92A0 /* LaunchScreen.storyboard */; };
 		92D612C624CDEC0A000B92A0 /* ViewAnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D612C524CDEC0A000B92A0 /* ViewAnimatorTests.swift */; };
 		92D612D124CDEC0A000B92A0 /* ViewAnimatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D612D024CDEC0A000B92A0 /* ViewAnimatorUITests.swift */; };
+		92D612DF24CDECAC000B92A0 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D612DE24CDECAC000B92A0 /* ViewAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		92D612CC24CDEC0A000B92A0 /* ViewAnimatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewAnimatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D612D024CDEC0A000B92A0 /* ViewAnimatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimatorUITests.swift; sourceTree = "<group>"; };
 		92D612D224CDEC0A000B92A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D612DE24CDECAC000B92A0 /* ViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				92D612AE24CDEC08000B92A0 /* AppDelegate.swift */,
 				92D612B024CDEC08000B92A0 /* SceneDelegate.swift */,
 				92D612B224CDEC08000B92A0 /* ViewController.swift */,
+				92D612DE24CDECAC000B92A0 /* ViewAnimator.swift */,
 				92D612B424CDEC08000B92A0 /* Main.storyboard */,
 				92D612B724CDEC09000B92A0 /* Assets.xcassets */,
 				92D612B924CDEC09000B92A0 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				92D612B324CDEC08000B92A0 /* ViewController.swift in Sources */,
 				92D612AF24CDEC08000B92A0 /* AppDelegate.swift in Sources */,
 				92D612B124CDEC08000B92A0 /* SceneDelegate.swift in Sources */,
+				92D612DF24CDECAC000B92A0 /* ViewAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Gulshan.ViewAnimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,7 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Gulshan.ViewAnimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
